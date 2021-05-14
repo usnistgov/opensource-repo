@@ -1,10 +1,10 @@
 # NIST Opensource Portal repositories categories and themes.
 # Source: https://www.nist.gov/topics
-# Chose one catgeory and at least one theme as you think
-# adequate your opensource repository.
+# Choose one catgeory and at least one theme as you think
+# adequate for your opensource repository.
 # Uncomment the category and the research
 # themes that suit you best.
-# You are also able to provide futher details on the choices.
+# You are also able to provide further details on the choices.
 # For example you could do:
 # categories:
 #   - scientific-software:
@@ -24,10 +24,10 @@
 categories:
   - scientific-software
   # - ai-ml
-  #- simulation
-  #- visualization
-  #- build-tools
-  #- hpc-workflow
+  # - simulation
+  # - visualization
+  # - build-tools
+  # - hpc-workflow
 themes:
   # - Advanced communications
   # - Artificial intelligence
@@ -55,9 +55,3 @@ themes:
   # - Resilience
   # - Standards
   # - Transportation
-  # - Energy
-  # - Environment
-  # - Fire
-  # - Forensic Science
-  # - Health
-  # - Information technology
