@@ -3,9 +3,7 @@
 The following information applies to the software code developed
 by employees of NIST.
 
-Additional LICENSES are located within the code base and are provided by 3rd 
-party developers.
-==============================================================================
+## Additional LICENSES are located within the code base and are provided by 3rd party developers
 
 This software was developed by employees of the National Institute of
 Standards and Technology (NIST), an agency of the Federal Government and is
