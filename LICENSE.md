@@ -1,4 +1,4 @@
-# NIST DISCLAIMER
+# NIST Licensing Statement
 
 The following information applies to the software code developed
 by employees of NIST.
@@ -32,5 +32,4 @@ BY PERSONS OR PROPERTY OR OTHERWISE, AND WHETHER OR NOT LOSS WAS SUSTAINED
 FROM, OR AROSE OUT OF THE RESULTS OF, OR USE OF, THE SOFTWARE OR SERVICES
 PROVIDED HEREUNDER.
 
-To see the latest statement, please visit:
-[https://www.nist.gov/director/copyright-fair-use-and-licensing-statements-srd-data-and-software](Copyright, Fair Use, and Licensing Statements for SRD, Data, and Software)
+To see the latest statement, please visit [Copyright, Fair Use, and Licensing Statements for SRD, Data, and Software](https://www.nist.gov/director/copyright-fair-use-and-licensing-statements-srd-data-and-software).
