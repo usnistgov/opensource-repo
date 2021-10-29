@@ -18,40 +18,40 @@
 # topics. The final topics are produced from this file and the topics.
 #
 # The following NIST topics and categories are based on the NIST
-# Taxonomy. It can be found here: 
+# Taxonomy. It can be found here:
 # https://data.nist.gov/od/id/691DDF3315711C14E0532457068146BE1907
-
+---
 categories:
   - scientific-software
-  # - ai-ml
-  # - simulation
-  # - visualization
-  # - build-tools
-  # - hpc-workflow
+#  - ai-ml
+#  - simulation
+#  - visualization
+#  - build-tools
+#  - hpc-workflow
 themes:
-  # - Advanced communications
-  # - Artificial intelligence
-  # - Bioscience
-  # - Buildings & Construction
-  # - Chemistry
-  # - Cybersecurity
-  # - Electronics
-  # - Energy
-  # - Environment
-  # - Fire
-  # - Forensic Science
-  # - Health
-  # - Information Technology
-  # - Infrastructure
-  # - Manufacturing
-  # - Materials
-  # - Mathematics & Statistics
-  # - Metrology
-  # - Nanotechnology
-  # - Neutron research
-  # - Performance excellence
-  # - Physics
-  # - Public safety
-  # - Resilience
-  # - Standards
-  # - Transportation
+#  - Advanced communications
+#  - Artificial intelligence
+#  - Bioscience
+#  - Buildings & Construction
+#  - Chemistry
+#  - Cybersecurity
+#  - Electronics
+#  - Energy
+#  - Environment
+#  - Fire
+#  - Forensic Science
+#  - Health
+#  - Information Technology
+#  - Infrastructure
+#  - Manufacturing
+#  - Materials
+#  - Mathematics & Statistics
+#  - Metrology
+#  - Nanotechnology
+#  - Neutron research
+#  - Performance excellence
+#  - Physics
+#  - Public safety
+#  - Resilience
+#  - Standards
+#  - Transportation
