@@ -6,10 +6,10 @@ green "Use this template" button at the top of the [page][gh-rep].
 
 ## Requirements to post public repositories to [usnistgov][gh-nst]
 
-Use of this resource by NIST employees is subject to the [GitHub
-Rules of Behavior (PDF)][gh-rob]. For details, please consult the
-Office of Data & Informatics' [Quickstart Guide to GitHub at
-NIST][odi-gh].
+Use of this resource by NIST employees is subject to the
+[Rules of Behavior for GitHub (PDF)][gh-rob]. For details, please
+consult the Office of Data & Informatics'
+[Quickstart Guide to GitHub at NIST][gh-odi].
 
 ### README
 
@@ -34,7 +34,7 @@ formatted using GitHub-flavored [Markdown][gh-mdn] and named
    additional license language if needed, *e.g.* [BSD][li-bsd],
    [GPL][li-gpl], or [MIT][li-mit]
 
-### LICENSE
+### Terms of Use: `LICENSE.md`
 
 Each repository will contain a file named `LICENSE.md` that is
 phrased in compliance with the Public Access to NIST Research
@@ -49,16 +49,66 @@ Software*][nist-open].
   copyright and licensing statements of any third-party software that
   are legally bundled with the code in compliance with the conditions
   of those licenses
+  - *Note:* There is [ongoing discussion](gh-tpl) on the best way to
+    handle attribution and license inclusion for third-party
+    dependencies: please weigh in!
+
+### CODEOWNERS
+
+This template repository includes a file named [CODEOWNERS](CODEOWNERS),
+which visitors can view to discover which GitHub users are "in charge"
+of the repository.
+More crucially, GitHub uses it to assign reviewers on pull requests.
+GitHub documents the file (and how to write one) [here][gh-cdo].
+
+***Please update this file*** to point to your own account or team,
+so that the [Open-Source Team][gh-ost] doesn't get spammed with
+spurious review requests. *Thanks!*
+
+### Repository Metadata: `CODEMETA.yaml`
+
+This repository includes a file named `CODEMETA.yaml`, used by the NIST
+Software Portal to sort your work under the appropriate thematic
+homepage. ***Please update this file*** with the appropriate "theme" and
+"category" for your code/data/software. The Tier 1 themes are:
+
+- [Advanced communications](https://www.nist.gov/advanced-communications)
+- [Bioscience](https://www.nist.gov/bioscience)
+- [Buildings and Construction](https://www.nist.gov/buildings-construction)
+- [Chemistry](https://www.nist.gov/chemistry)
+- [Electronics](https://www.nist.gov/electronics)
+- [Energy](https://www.nist.gov/energy)
+- [Environment](https://www.nist.gov/environment)
+- [Fire](https://www.nist.gov/fire)
+- [Forensic Science](https://www.nist.gov/forensic-science)
+- [Health](https://www.nist.gov/health)
+- [Information Technology](https://www.nist.gov/information-technology)
+- [Infrastructure](https://www.nist.gov/infrastructure)
+- [Manufacturing](https://www.nist.gov/manufacturing)
+- [Materials](https://www.nist.gov/materials)
+- [Mathematics and Statistics](https://www.nist.gov/mathematics-statistics)
+- [Metrology](https://www.nist.gov/metrology)
+- [Nanotechnology](https://www.nist.gov/nanotechnology)
+- [Neutron research](https://www.nist.gov/neutron-research)
+- [Performance excellence](https://www.nist.gov/performance-excellence)
+- [Physics](https://www.nist.gov/physics)
+- [Public safety](https://www.nist.gov/public-safety)
+- [Resilience](https://www.nist.gov/resilience)
+- [Standards](https://www.nist.gov/standards)
+- [Transportation](https://www.nist.gov/transportation)
 
 <!-- References -->
 
+[gh-cdo]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 [gh-mdn]: https://github.github.com/gfm/
 [gh-nst]: https://github.com/usnistgov
+[gh-odi]: https://odiwiki.nist.gov/ODI/GitHub.html
+[gh-ost]: https://github.com/usnistgov/teams/opensource-team
 [gh-rob]: https://odiwiki.nist.gov/pub/ODI/GitHub/GHROB.pdf
 [gh-rep]: https://github.com/usnistgov/opensource-repo/
+[gh-tpl]: https://github.com/usnistgov/carpentries-development/discussions/3
 [li-bsd]: https://opensource.org/licenses/bsd-license
 [li-gpl]: https://opensource.org/licenses/gpl-license
 [li-mit]: https://opensource.org/licenses/mit-license
 [nist-open]: https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications
-[odi-gh]: https://odiwiki.nist.gov/ODI/GitHub.html
 [wk-rdm]: https://en.wikipedia.org/wiki/README
