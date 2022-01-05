@@ -211,7 +211,7 @@ in a FAIR frame of mind.
 
 - [F-UJI][fuji] (*tool*): analyze a repository and get a report of
   its FAIR compliance, with an overall score and a checklist
-- [FAIRaware][fairaware] quiz/checklist of understanding
+- [FAIRaware][fair-aware] quiz/checklist of understanding
 - [FAIR for Research Software (FAIR4RS)][fair4rs], a proposed
   modification of the FAIR principles specifically for software.
 - [10 easy things to make your software FAIR!][lc-fair-poster] (PDF)
