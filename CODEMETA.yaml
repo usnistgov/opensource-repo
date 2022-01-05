@@ -20,7 +20,7 @@
 #   - Information Technology
 #       - Software research
 #           - Software performance
-# 
+#
 # Since scientific-software is most common it is left as the default
 # category. Feel free to comment it with a hash (#) if it does not
 # apply. There is no default theme; select as many as are relevant.
@@ -28,7 +28,7 @@
 # produced from this file.
 
 ---
-categories
+categories:
   # - ai-ml
   # - performance-and-workflow
   - scientific-software
@@ -36,7 +36,9 @@ categories
   # - tools
   # - visualization
 
-themes
+themes:
+  - Information Technology
+    - Data and informatics
   # - Advanced communications
   #     - Optical communications
   #     - Quantum communications

@@ -97,6 +97,11 @@ homepage. ***Please update this file*** with the appropriate "theme" and
 - [Standards](https://www.nist.gov/standards)
 - [Transportation](https://www.nist.gov/transportation)
 
+### FAIR Software & Data
+
+Some advice and links for producing FAIR software and data can be
+found in [`fair-software.md`](fair-software.md).
+
 <!-- References -->
 
 [gh-cdo]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
