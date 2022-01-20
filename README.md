@@ -108,7 +108,7 @@ found in [`fair-software.md`](fair-software.md).
 [gh-mdn]: https://github.github.com/gfm/
 [gh-nst]: https://github.com/usnistgov
 [gh-odi]: https://odiwiki.nist.gov/ODI/GitHub.html
-[gh-ost]: https://github.com/usnistgov/teams/opensource-team
+[gh-ost]: https://github.com/orgs/usnistgov/teams/opensource-team
 [gh-rob]: https://odiwiki.nist.gov/pub/ODI/GitHub/GHROB.pdf
 [gh-rep]: https://github.com/usnistgov/opensource-repo/
 [gh-tpl]: https://github.com/usnistgov/carpentries-development/discussions/3
