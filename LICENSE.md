@@ -29,9 +29,5 @@ SOFTWARE OR SERVICES PROVIDED HEREUNDER.
 
 ## Third-Party Software Licenses
 
-This repository includes the following software, licensed by third
-parties and not subject to the above disclaimer.
-
-### *name of bundled dependency*
-
-*Text of bundled dependency license*
+This repository includes no dependencies licensed by third
+parties.
