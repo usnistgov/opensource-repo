@@ -26,12 +26,3 @@ CONTRACT, TORT, OR OTHERWISE, WHETHER OR NOT INJURY WAS SUSTAINED BY
 PERSONS OR PROPERTY OR OTHERWISE, AND WHETHER OR NOT LOSS WAS
 SUSTAINED FROM, OR AROSE OUT OF THE RESULTS OF, OR USE OF, THE
 SOFTWARE OR SERVICES PROVIDED HEREUNDER.
-
-## Third-Party Software Licenses
-
-This repository includes the following software, licensed by third
-parties and not subject to the above disclaimer.
-
-### *name of bundled dependency*
-
-*Text of bundled dependency license*
