@@ -62,13 +62,11 @@ Software*][nist-open].
   repository is approved for use.
 - When in doubt, copy and include the contents of the relevant
   statement inside a "blue box" in its entirety
-- *After* the NIST disclaimer of copyright and warranty, include
-  copyright and licensing statements of any third-party software that
-  are legally bundled with the code in compliance with the conditions
-  of those licenses
-  - *Note:* There is [ongoing discussion](gh-tpl) on the best way to
-    handle attribution and license inclusion for third-party
-    dependencies: please weigh in!
+- As subsections of [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md),
+  include copyright and licensing statements of any third-party
+  software that are legally bundled with the code in compliance with
+  the conditions of those licenses. If this does not apply, you may
+  delete that file.
 
 ### CODEOWNERS
 
@@ -156,15 +154,15 @@ Software Repository][nist-code].
 
 ## Third-Party Dependencies
 
-<!-- If your project includes source code from third parties,
-     note those dependencies below along with their license
-     terms. If those terms of use prohibit you from including the
-     third-party work directly, make note of how to obtain -->
+<!-- If your project includes source code from third parties, note
+     those dependencies below and link to their sub-sections in
+     [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md). If those
+     terms of use prohibit you from including the third-party work
+     directly, make note of how to obtain it, and make sure it is not
+     checked in to this repository. -->
 
-This repository does not include any third-party software. The
-only dependency is a text editor or Web browser to read or edit
-its constituent files, most of which are written in
-[GitHub-flavored Markdown][gh-mdn] for richer online viewing.
+This repository does not include any third-party software: it is
+only subject to the [NIST Disclaimer of Warranty](LICENSE.md).
 
 <!-- References -->
 
