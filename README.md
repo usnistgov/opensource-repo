@@ -1,16 +1,5 @@
 # NIST Open-Source Software Repository Template
 
-<!-- Text within tags like these are comments, and will not
-     appear online. Feel free to delete them from your copy. -->
-
-## Description
-
-<!-- Required. Please replace the text in this section with a
-     summary of the work this repository represents, or intends
-     to. Sub-sections describing file contents can/should be
-     removed, or replaced with a file format or folder hierarchy
-     description. -->
-
 Use of GitHub by NIST employees for government work is subject to
 the [Rules of Behavior for GitHub][gh-rob]. This is the
 recommended template for NIST employees, since it contains
@@ -28,47 +17,64 @@ The key files contained in this repository -- which will also
 appear in templated copies -- are listed below, with some things
 to know about each.
 
-### README
+---
 
-Each repository will contain a [README file][wk-rdm], preferably
-formatted using [GitHub-flavored Markdown][gh-mdn] and named
-`README.md` (this file). It must contain:
+## README
+
+Each repository will contain a plain-text [README file][wk-rdm],
+preferably formatted using [GitHub-flavored Markdown][gh-mdn] and
+named `README.md` (this file) or `README`.
+
+Per the [GitHub ROB][gh-rob] and [NIST Suborder 1801.02][nist-s-1801-02],
+your README should contain:
 
 1. Software or Data description
    - Statements of purpose and maturity
-   - Technical installation instructions
+   - Description of the repository contents
+   - Technical installation instructions, including operating
+     system or software dependencies
 1. Contact information
    - PI name, NIST OU, Division, and Group names
    - Contact email address at NIST
    - Details of mailing lists, chatrooms, and discussion forums,
      where applicable
 1. Related Material
-   - URL for associated project on <nist.gov> or other Department of
-     Commerce site, if available
+   - URL for associated project on the NIST website or other Department
+     of Commerce page, if available
    - References to user guides if stored outside of GitHub
 1. Directions on appropriate citation with example text
-1. References to any included non-public domain software modules, and
-   additional license language if needed, *e.g.* [BSD][li-bsd],
+1. References to any included non-public domain software modules,
+   and additional license language if needed, *e.g.* [BSD][li-bsd],
    [GPL][li-gpl], or [MIT][li-mit]
 
-### Terms of Use: `LICENSE.md`
+The more detailed your README, the more likely our colleagues
+around the world are to find it through a Web search. For general
+advice on writing a helpful README, please review
+[*Making Readmes Readable*][18f-guide] from 18F and Cornell's
+[*Guide to Writing README-style Metadata*][cornell-meta].
 
-Each repository will contain a file named `LICENSE.md` that is
-phrased in compliance with the Public Access to NIST Research
-[*Copyright, Fair Use, and Licensing Statement for SRD, Data, and
-Software*][nist-open].
+## LICENSE
+
+Each repository will contain a plain-text file named `LICENSE.md`
+or `LICENSE` that is phrased in compliance with the Public Access
+to NIST Research [*Copyright, Fair Use, and Licensing Statement
+for SRD, Data, and Software*][nist-open], which provides
+up-to-date official language for each category in a blue box.
 
 - The version of [LICENSE.md](LICENSE.md) included in this
   repository is approved for use.
-- When in doubt, copy and include the contents of the relevant
-  statement inside a "blue box" in its entirety
-- As subsections of [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md),
-  include copyright and licensing statements of any third-party
-  software that are legally bundled with the code in compliance with
-  the conditions of those licenses. If this does not apply, you may
-  delete that file.
+- Updated language on the [Licensing Statement][nist-open] page
+  supersedes the copy in this repository. You may transcribe the
+  language from the appropriate "blue box" on that page into your
+  README.
 
-### CODEOWNERS
+If your repository includes any software or data that is licensed
+by a third party, create a separate file for third-party licenses
+(`THIRD_PARTY_LICENSES.md` is recommended) and include copyright
+and licensing statements in compliance with the conditions of
+those licenses.
+
+## CODEOWNERS
 
 This template repository includes a file named
 [CODEOWNERS](CODEOWNERS), which visitors can view to discover
@@ -76,17 +82,17 @@ which GitHub users are "in charge" of the repository. More
 crucially, GitHub uses it to assign reviewers on pull requests.
 GitHub documents the file (and how to write one) [here][gh-cdo].
 
-***Please update this file*** to point to your own account or
+***Please update that file*** to point to your own account or
 team, so that the [Open-Source Team][gh-ost] doesn't get spammed
 with spurious review requests. *Thanks!*
 
-### Repository Metadata: `CODEMETA.yaml`
+## CODEMETA
 
-This repository includes a file named `CODEMETA.yaml`, used by
-the NIST Software Portal to sort your work under the appropriate
-thematic homepage. ***Please update this file*** with the
-appropriate "theme" and "category" for your code/data/software.
-The Tier 1 themes are:
+Project metadata is captured in `CODEMETA.yaml`, used by the NIST
+Software Portal to sort your work under the appropriate thematic
+homepage. ***Please update this file*** with the appropriate
+"theme" and "category" for your code/data/software. The Tier 1
+themes are:
 
 - [Advanced communications](https://www.nist.gov/advanced-communications)
 - [Bioscience](https://www.nist.gov/bioscience)
@@ -113,12 +119,7 @@ The Tier 1 themes are:
 - [Standards](https://www.nist.gov/standards)
 - [Transportation](https://www.nist.gov/transportation)
 
-## Contact Information
-
-<!-- Required section. Please list your project's developers
-     instead of the opensource-repo team. Note that NIST
-     employees are required to list their email address in their
-     GitHub profile, so the general public can get in touch. -->
+---
 
 [usnistgov/opensource-repo][gh-osr] is developed and maintained
 by the [opensource-team][gh-ost], principally:
@@ -127,45 +128,12 @@ by the [opensource-team][gh-ost], principally:
 - Yannick Congo, @faical-yannick-congo
 - Trevor Keller, @tkphd
 
-This information is also reflected in [CODEOWNERS](CODEOWNERS).
-
-## Related Material
-
-<!-- Please list any publications, websites, or work related to
-     your project. -->
-
-Some advice and links for producing FAIR software and data can be
-found in [`fair-software.md`](fair-software.md).
-
-## Cite This Work
-
-<!-- Please provide a DOI, URL, and suggested citation. -->
-
-While this template repository has not been published, you can
-cite it as follows:
-
-> F. Congo, G. Greene, T. Keller, and A. Morey. *NIST Open-Source
-> Software Repository Template* [Source Code]. Online:
-> <https://github.com/usnistgov/opensource-repo> (accessed 15
-> March 2022).
-
-Other software developed at NIST can be found in the [Open-Source
-Software Repository][nist-code].
-
-## Third-Party Dependencies
-
-<!-- If your project includes source code from third parties, note
-     those dependencies below and link to their sub-sections in
-     [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md). If those
-     terms of use prohibit you from including the third-party work
-     directly, make note of how to obtain it, and make sure it is not
-     checked in to this repository. -->
-
-This repository does not include any third-party software: it is
-only subject to the [NIST Disclaimer of Warranty](LICENSE.md).
+Please reach out with questions and comments.
 
 <!-- References -->
 
+[18f-guide]: https://github.com/18F/open-source-guide/blob/18f-pages/pages/making-readmes-readable.md
+[cornell-meta]: https://data.research.cornell.edu/content/readme
 [gh-cdo]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 [gh-mdn]: https://github.github.com/gfm/
 [gh-nst]: https://github.com/usnistgov
@@ -178,5 +146,7 @@ only subject to the [NIST Disclaimer of Warranty](LICENSE.md).
 [li-gpl]: https://opensource.org/licenses/gpl-license
 [li-mit]: https://opensource.org/licenses/mit-license
 [nist-code]: https://code.nist.gov
+[nist-disclaimer]: https://www.nist.gov/open/license
+[nist-s-1801-02]: https://inet.nist.gov/adlp/directives/review-data-intended-publication
 [nist-open]: https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications
 [wk-rdm]: https://en.wikipedia.org/wiki/README
