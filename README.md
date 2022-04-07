@@ -25,8 +25,8 @@ Each repository will contain a plain-text [README file][wk-rdm],
 preferably formatted using [GitHub-flavored Markdown][gh-mdn] and
 named `README.md` (this file) or `README`.
 
-Per the [GitHub ROB][gh-rob] and [NIST Suborder
-1801.02][nist-s-1801-02], your README should contain:
+Per the [GitHub ROB][gh-rob] and [NIST Suborder 1801.02][nist-s-1801-02],
+your README should contain:
 
 1. Software or Data description
    - Statements of purpose and maturity
@@ -39,8 +39,8 @@ Per the [GitHub ROB][gh-rob] and [NIST Suborder
    - Details of mailing lists, chatrooms, and discussion forums,
      where applicable
 1. Related Material
-   - URL for associated project on <nist.govor other Department
-     of Commerce site, if available
+   - URL for associated project on the NIST website or other Department
+     of Commerce page, if available
    - References to user guides if stored outside of GitHub
 1. Directions on appropriate citation with example text
 1. References to any included non-public domain software modules,
@@ -49,9 +49,9 @@ Per the [GitHub ROB][gh-rob] and [NIST Suborder
 
 The more detailed your README, the more likely our colleagues
 around the world are to find it through a Web search. For general
-advice on writing a helpful README, please review [*Making
-Readmes Readable*][18f-guide] from 18F and Cornell's [*Guide to
-Writing README-style Metadata*][cornell-meta].
+advice on writing a helpful README, please review
+[*Making Readmes Readable*][18f-guide] from 18F and Cornell's
+[*Guide to Writing README-style Metadata*][cornell-meta].
 
 ## LICENSE
 
@@ -64,7 +64,7 @@ up-to-date official language for each category in a blue box.
 - The version of [LICENSE.md](LICENSE.md) included in this
   repository is approved for use.
 - Updated language on the [Licensing Statement][nist-open] page
-  supercedes the copy in this repository. You may transcribe the
+  supersedes the copy in this repository. You may transcribe the
   language from the appropriate "blue box" on that page into your
   README.
 
@@ -133,6 +133,7 @@ Please reach out with questions and comments.
 <!-- References -->
 
 [18f-guide]: https://github.com/18F/open-source-guide/blob/18f-pages/pages/making-readmes-readable.md
+[cornell-meta]: https://data.research.cornell.edu/content/readme
 [gh-cdo]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 [gh-mdn]: https://github.github.com/gfm/
 [gh-nst]: https://github.com/usnistgov
@@ -146,6 +147,6 @@ Please reach out with questions and comments.
 [li-mit]: https://opensource.org/licenses/mit-license
 [nist-code]: https://code.nist.gov
 [nist-disclaimer]: https://www.nist.gov/open/license
-[nist-s1801-02]: https://inet.nist.gov/adlp/directives/review-data-intended-publication
+[nist-s-1801-02]: https://inet.nist.gov/adlp/directives/review-data-intended-publication
 [nist-open]: https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications
 [wk-rdm]: https://en.wikipedia.org/wiki/README
