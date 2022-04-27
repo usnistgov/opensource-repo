@@ -148,5 +148,5 @@ Please reach out with questions and comments.
 [nist-code]: https://code.nist.gov
 [nist-disclaimer]: https://www.nist.gov/open/license
 [nist-s-1801-02]: https://inet.nist.gov/adlp/directives/review-data-intended-publication
-[nist-open]: https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications
+[nist-open]: https://www.nist.gov/open/license#software
 [wk-rdm]: https://en.wikipedia.org/wiki/README
