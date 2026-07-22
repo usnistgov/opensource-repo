@@ -5,8 +5,8 @@ the [Rules of Behavior for GitHub][gh-rob]. This is the
 recommended template for NIST employees, since it contains
 required files with approved text. 
 
-For details, please consult the Office of Data & Informatics' [Quickstart Guide to GitHub at
-NIST][].
+For details, please consult the Onboarding Guide to GitHub at
+NIST - currently under revision.
 
 Please click on the green **Use this template** button above to
 create a new repository under the [usnistgov][gh-nst]
