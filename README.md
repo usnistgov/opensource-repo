@@ -3,9 +3,10 @@
 Use of GitHub by NIST employees for government work is subject to
 the [Rules of Behavior for GitHub][gh-rob]. This is the
 recommended template for NIST employees, since it contains
-required files with approved text. For details, please consult
-the Office of Data & Informatics' [Quickstart Guide to GitHub at
-NIST][gh-odi].
+required files with approved text. 
+
+For details, please consult the Office of Data & Informatics' [Quickstart Guide to GitHub at
+NIST][].
 
 Please click on the green **Use this template** button above to
 create a new repository under the [usnistgov][gh-nst]
@@ -125,8 +126,7 @@ themes are:
 by the [opensource-team][gh-ost], principally:
 
 - Gretchen Greene, @GRG2
-- Yannick Congo, @faical-yannick-congo
-- Trevor Keller, @tkphd
+- Adam Morey, @amorey
 
 Please reach out with questions and comments.
 
