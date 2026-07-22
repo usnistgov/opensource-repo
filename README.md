@@ -140,7 +140,7 @@ Please reach out with questions and comments.
 [gh-odi]: https://odiwiki.nist.gov/ODI/GitHub.html
 [gh-osr]: https://github.com/usnistgov/opensource-repo/
 [gh-ost]: https://github.com/orgs/usnistgov/teams/opensource-team
-[gh-rob]: https://odiwiki.nist.gov/pub/ODI/GitHub/GHROB.pdf
+[gh-rob]: https://inet.nist.gov/oism/github-rules-or-behavior-usnistgov-organization
 [gh-tpl]: https://github.com/usnistgov/carpentries-development/discussions/3
 [li-bsd]: https://opensource.org/licenses/bsd-license
 [li-gpl]: https://opensource.org/licenses/gpl-license
